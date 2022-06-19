@@ -1,0 +1,37 @@
+module.exports = {
+  root: true,
+  plugins: [
+    'vue',
+    '@typescript-eslint',
+  ],
+  extends: [
+    'plugin:vue/vue3-recommended',
+    'airbnb-base',
+    'airbnb-typescript/base',
+  ],
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    ecmaVersion: 'latest',
+    parser: '@typescript-eslint/parser',
+    sourceType: 'module',
+    project: './tsconfig.eslint.json',
+    extraFileExtensions: ['.vue'],
+  },
+  rules: {
+    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    // semi: ['error', 'never'],
+    semi: 'off',
+    '@typescript-eslint/semi': ['error', 'never'],
+    'max-len': ['warn', { code: 100 }],
+    'no-restricted-syntax': 'off',
+    'no-plusplus': 'off',
+    'no-continue': 'off',
+    'prefer-template': 'error',
+    'import/no-extraneous-dependencies': 'off',
+    'import/no-unresolved': 'off',
+    'no-unused-expressions': 'off',
+    '@typescript-eslint/no-unused-expressions': ['error', { allowShortCircuit: true, allowTernary: true }],
+    // 'no-unused-expressions': ['error', { allowShortCircuit: true, allowTernary: true }],
+  },
+}
