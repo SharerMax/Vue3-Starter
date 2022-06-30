@@ -4,7 +4,7 @@ specifiers:
   '@types/node': ^18.0.0
   '@typescript-eslint/eslint-plugin': ^5.29.0
   '@typescript-eslint/parser': ^5.29.0
-  '@unocss/reset': ^0.41.1
+  '@unocss/reset': ^0.42.0
   '@vitejs/plugin-vue': ^2.3.3
   autoprefixer: ^10.4.7
   eslint: ^8.18.0
@@ -22,7 +22,7 @@ specifiers:
   vue-tsc: ^0.38.2
 
 dependencies:
-  '@unocss/reset': 0.41.1
+  '@unocss/reset': 0.42.0
   vue: 3.2.37
   vue-router: 4.0.16_vue@3.2.37
 
@@ -387,13 +387,8 @@ packages:
       '@unocss/preset-mini': 0.42.0
     dev: true
 
-  /@unocss/reset/0.41.1:
-    resolution: {integrity: sha512-LuexPyQ/xOQdlE6Q3PfcSTisA1r3C26mTulunzN/N3vBheTqG+FlyHaGQUqJst/NFq4SD+lPiNVz3Y3/6/pvww==}
-    dev: false
-
   /@unocss/reset/0.42.0:
     resolution: {integrity: sha512-RwR/qksaLwcmm1ahZRAWwthd0RIdSFpFUzfpAm5WuIIoDOpbHyQL/ZYE3Al0KcQ4uXbb4ruJQWE6oKRtku644w==}
-    dev: true
 
   /@unocss/scope/0.42.0:
     resolution: {integrity: sha512-KHe94Dhr3t1X2bZ3vn9Db1DTsaNSxAOz21I8bFAGAWm6pxtVJNDqXzGGTN0fG5VnQYz2HRM0AqwLRQJi+7Q3mA==}
