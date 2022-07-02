@@ -5,6 +5,7 @@
 <script setup lang="ts">
 
 </script>
+
 <script>
 export default {
   name: 'LayoutIndex',

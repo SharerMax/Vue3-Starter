@@ -1,5 +1,5 @@
 {
   "extends": ["config:base", ":automergeMinor", ":preserveSemverRanges"],
   "enabledManagers": ["npm"],
-  "labels": ["dependencies"],
+  "labels": ["dependencies"]
 }

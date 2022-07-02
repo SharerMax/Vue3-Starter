@@ -1,8 +1,7 @@
+import * as path from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import Unocss from 'unocss/vite'
-
-import * as path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -20,9 +19,9 @@ export default defineConfig({
       output: {
         assetFileNames: (assetInfo) => {
           let extType = assetInfo.name.split('.')[1]
-          if (/png|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType)) {
+          if (/png|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType))
             extType = 'img'
-          }
+
           return `assets/${extType}/[name]-[hash][extname]`
         },
         chunkFileNames: 'assets/js/[name]-[hash].js',
