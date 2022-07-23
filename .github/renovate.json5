@@ -1,5 +1,6 @@
 {
-  "extends": ["config:base", ":automergeMinor", ":preserveSemverRanges"],
+  "extends": ["config:base", ":automergeMinor"],
   "enabledManagers": ["npm"],
-  "labels": ["dependencies"]
+  "labels": ["dependencies"],
+  "rangeStrategy": "bump"
 }
