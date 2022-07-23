@@ -4,7 +4,7 @@ specifiers:
   '@antfu/eslint-config': ^0.25.2
   '@types/node': ^18.0.4
   '@unocss/reset': ^0.44.2
-  '@vitejs/plugin-vue': ^3.0.0
+  '@vitejs/plugin-vue': ^3.0.1
   autoprefixer: ^10.4.7
   eslint: ^8.19.0
   postcss: ^8.4.14
@@ -24,7 +24,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.25.2_4x5o4skxv6sl53vpwefgt23khm
   '@types/node': 18.0.4
-  '@vitejs/plugin-vue': 3.0.0_vite@3.0.0+vue@3.2.37
+  '@vitejs/plugin-vue': 3.0.1_vite@3.0.0+vue@3.2.37
   autoprefixer: 10.4.7_postcss@8.4.14
   eslint: 8.19.0
   postcss: 8.4.14
@@ -587,9 +587,9 @@ packages:
       vite: 3.0.0
     dev: true
 
-  /@vitejs/plugin-vue/3.0.0_vite@3.0.0+vue@3.2.37:
-    resolution: {integrity: sha512-yWP34ArFh/jAeNUDkkLz/kVRLjf5ppJiq4L36f64Cp6dIrMQeYZGDP9xxdemlXfZR9ylN9JgHUl3GzfqOtgYDg==}
-    engines: {node: '>=14.18.0'}
+  /@vitejs/plugin-vue/3.0.1_vite@3.0.0+vue@3.2.37:
+    resolution: {integrity: sha512-Ll9JgxG7ONIz/XZv3dssfoMUDu9qAnlJ+km+pBA0teYSXzwPCIzS/e1bmwNYl5dcQGs677D21amgfYAnzMl17A==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
