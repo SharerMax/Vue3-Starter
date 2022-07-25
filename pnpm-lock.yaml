@@ -11,7 +11,7 @@ specifiers:
   postcss-nested: ^5.0.6
   typescript: ^4.7.4
   unocss: ^0.44.7
-  vite: ^3.0.2
+  vite: ^3.0.3
   vue: ^3.2.37
   vue-router: ^4.1.2
   vue-tsc: ^0.39.0
@@ -24,14 +24,14 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.25.2_he2ccbldppg44uulnyq4rwocfa
   '@types/node': 18.0.4
-  '@vitejs/plugin-vue': 3.0.1_vite@3.0.2+vue@3.2.37
+  '@vitejs/plugin-vue': 3.0.1_vite@3.0.3+vue@3.2.37
   autoprefixer: 10.4.7_postcss@8.4.14
   eslint: 8.20.0
   postcss: 8.4.14
   postcss-nested: 5.0.6_postcss@8.4.14
   typescript: 4.7.4
-  unocss: 0.44.7_vite@3.0.2
-  vite: 3.0.2
+  unocss: 0.44.7_vite@3.0.3
+  vite: 3.0.3
   vue-tsc: 0.39.0_typescript@4.7.4
 
 packages:
@@ -571,7 +571,7 @@ packages:
       '@unocss/core': 0.44.7
     dev: true
 
-  /@unocss/vite/0.44.7_vite@3.0.2:
+  /@unocss/vite/0.44.7_vite@3.0.3:
     resolution: {integrity: sha512-RjOB+Yv2bg/p5NOzwXDYap0fl7m+1VmIfej8Afceisy0mDL1NniGISiA0pQjOhUewPdSaBDpRXxlpoDGnYaPjw==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0
@@ -584,17 +584,17 @@ packages:
       '@unocss/scope': 0.44.7
       '@unocss/transformer-directives': 0.44.7
       magic-string: 0.26.2
-      vite: 3.0.2
+      vite: 3.0.3
     dev: true
 
-  /@vitejs/plugin-vue/3.0.1_vite@3.0.2+vue@3.2.37:
+  /@vitejs/plugin-vue/3.0.1_vite@3.0.3+vue@3.2.37:
     resolution: {integrity: sha512-Ll9JgxG7ONIz/XZv3dssfoMUDu9qAnlJ+km+pBA0teYSXzwPCIzS/e1bmwNYl5dcQGs677D21amgfYAnzMl17A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.0.2
+      vite: 3.0.3
       vue: 3.2.37
     dev: true
 
@@ -3121,7 +3121,7 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /unocss/0.44.7_vite@3.0.2:
+  /unocss/0.44.7_vite@3.0.3:
     resolution: {integrity: sha512-4XQZAZ7F5gFi30Dn4e7PdxYc2BVTBtrkXA5QzHgmBy/RqNoM5kEuQwsooEVEMl6Cp3Q+vHuQCueVffOBHUl9rQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -3144,7 +3144,7 @@ packages:
       '@unocss/transformer-compile-class': 0.44.7
       '@unocss/transformer-directives': 0.44.7
       '@unocss/transformer-variant-group': 0.44.7
-      '@unocss/vite': 0.44.7_vite@3.0.2
+      '@unocss/vite': 0.44.7_vite@3.0.3
     transitivePeerDependencies:
       - supports-color
       - vite
@@ -3171,8 +3171,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/3.0.2:
-    resolution: {integrity: sha512-TAqydxW/w0U5AoL5AsD9DApTvGb2iNbGs3sN4u2VdT1GFkQVUfgUldt+t08TZgi23uIauh1TUOQJALduo9GXqw==}
+  /vite/3.0.3:
+    resolution: {integrity: sha512-sDIpIcl3mv1NUaSzZwiXGEy1ZoWwwC2vkxUHY6yiDacR6zf//ZFuBJrozO62gedpE43pmxnLATNR5IYUdAEkMQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
