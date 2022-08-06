@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': ^0.25.2
   '@types/node': ^18.0.4
-  '@unocss/reset': ^0.45.3
+  '@unocss/reset': ^0.45.5
   '@vitejs/plugin-vue': ^3.0.1
   autoprefixer: ^10.4.8
   eslint: ^8.21.0
@@ -17,7 +17,7 @@ specifiers:
   vue-tsc: ^0.39.4
 
 dependencies:
-  '@unocss/reset': 0.45.3
+  '@unocss/reset': 0.45.5
   vue: 3.2.37
   vue-router: 4.1.3_vue@3.2.37
 
@@ -549,13 +549,13 @@ packages:
       '@unocss/preset-mini': 0.45.4
     dev: true
 
-  /@unocss/reset/0.45.3:
-    resolution: {integrity: sha512-FzoUCmzFl2HKZJLy3Fk4we/Zjgn0IVqCANTUddLOpn0fAwRYbXZjJldLSx9j/GbrhqWYquY65hFjRyYyoYfoFA==}
-    dev: false
-
   /@unocss/reset/0.45.4:
     resolution: {integrity: sha512-irn5Hh0++LXToAtgnZYoCO3DFm6zn7we9rbGyDYjfce31o0zkegJEtTD5rREco2np8TuviVnW7pGcs7Mj0mIzA==}
     dev: true
+
+  /@unocss/reset/0.45.5:
+    resolution: {integrity: sha512-JDFRoc1H0Tk1knRGI+LljOKrKkWrF1txJ50DG3oa+azTdQaX0wDQ4isyDM6PbodydhEqYCsZcJEL/2pEiPRg8A==}
+    dev: false
 
   /@unocss/scope/0.45.4:
     resolution: {integrity: sha512-nRBBsYdhJl/lqgUBP1yjMEUtw24ijkYZ8ysPC8LO49EFA1C+SDN7BK1ImLot/XR8ca6TCp8EHMwBZ1BDjVucKA==}
