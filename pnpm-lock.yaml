@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': ^0.26.1
   '@types/node': ^18.0.4
-  '@unocss/reset': ^0.45.12
+  '@unocss/reset': ^0.45.13
   '@vitejs/plugin-vue': ^3.0.3
   autoprefixer: ^10.4.8
   eslint: ^8.22.0
@@ -17,7 +17,7 @@ specifiers:
   vue-tsc: ^0.40.1
 
 dependencies:
-  '@unocss/reset': 0.45.12
+  '@unocss/reset': 0.45.13
   vue: 3.2.37
   vue-router: 4.1.4_vue@3.2.37
 
@@ -561,6 +561,11 @@ packages:
 
   /@unocss/reset/0.45.12:
     resolution: {integrity: sha512-4HldzkLErjp90W9RMkMgnDbFQzZNz+cpLTB/3Wnj9UqvIBYAZ+gfZ7Y7YEntFKmHLMV1W+6emnuMNI4qS3B0Jg==}
+    dev: true
+
+  /@unocss/reset/0.45.13:
+    resolution: {integrity: sha512-BLnmfZNMNRu+qKNMm0v0xccGg8qEj4nLBKCGW739871qduN28KfqztYnY3UfGy6CJGIyMyZRI7lElhkjWO2NhA==}
+    dev: false
 
   /@unocss/scope/0.45.12:
     resolution: {integrity: sha512-BiGm4OUOhrN/woql/daUtj+jL74IuqwCrMp5m5pBGZ8JGtb0k5qWd4yOZLJllvjTJ3Im5AMFGQCbE9h6Oez+Ag==}
