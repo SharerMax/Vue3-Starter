@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", ":automergeMinor"],
+  "extends": ["config:base", ":automergeMinor", "schedule:weekly"],
   "enabledManagers": ["npm"],
   "labels": ["dependencies"],
   "rangeStrategy": "bump"
