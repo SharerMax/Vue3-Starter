@@ -6,8 +6,7 @@ module.exports = {
     // commonjs: true,
   },
   extends: [
-    '@antfu',
-
+    '@antfu/eslint-config-vue',
   ],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
