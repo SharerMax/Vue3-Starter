@@ -11,7 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@unocss/reset": "^0.45.26",
+    "@unocss/reset": "^0.45.29",
     "vue": "^3.2.40",
     "vue-router": "^4.1.5"
   },
@@ -20,12 +20,12 @@
     "@types/node": "^18.0.4",
     "@types/postcss-preset-env": "^7.7.0",
     "@vitejs/plugin-vue": "^3.1.2",
-    "eslint": "^8.24.0",
+    "eslint": "^8.25.0",
     "postcss": "^8.4.17",
     "postcss-preset-env": "^7.8.2",
     "typescript": "^4.8.4",
-    "unocss": "^0.45.26",
-    "vite": "^3.1.4",
+    "unocss": "^0.45.29",
+    "vite": "^3.1.6",
     "vue-tsc": "^0.40.13"
   }
 }
