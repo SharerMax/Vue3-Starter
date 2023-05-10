@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=v18.16.0",
+    "node": ">=18.16.0",
     "pnpm": ">=8.4.0"
   },
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config-vue": "^0.38.6",
-    "@types/node": "^18.16.6",
+    "@types/node": "^18.16.7",
     "@unocss/transformer-variant-group": "^0.51.12",
     "@vitejs/plugin-vue": "^4.2.1",
     "eslint": "^8.40.0",
