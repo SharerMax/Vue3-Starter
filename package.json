@@ -21,7 +21,7 @@
     "@antfu/eslint-config-vue": "^0.43.1",
     "@types/node": "^20.10.7",
     "@unocss/transformer-variant-group": "^0.58.3",
-    "@vitejs/plugin-vue": "^4.6.2",
+    "@vitejs/plugin-vue": "^5.0.2",
     "eslint": "^8.56.0",
     "postcss": "^8.4.33",
     "postcss-preset-env": "^9.3.0",
