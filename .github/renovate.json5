@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "matchDepTypes": ["engines"],
-      "matchUpdateTypes": ["minor"]
+      "matchUpdateTypes": ["minor"],
       "enabled": false
     }
   ]
