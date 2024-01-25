@@ -2,7 +2,7 @@
   "extends": ["config:base", "group:allNonMajor", "schedule:weekly"],
   "enabledManagers": ["npm"],
   "labels": ["dependencies"],
-  "rangeStrategy": "bump"
+  "rangeStrategy": "bump",
   "packageRules": [
     {
       "matchDepTypes": ["engines"],
