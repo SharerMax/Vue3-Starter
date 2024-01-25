@@ -1,6 +1,13 @@
 {
-  "extends": ["config:base", ":automergeMinor", "group:allNonMajor", "schedule:weekly"],
+  "extends": ["config:base", "group:allNonMajor", "schedule:weekly"],
   "enabledManagers": ["npm"],
   "labels": ["dependencies"],
   "rangeStrategy": "bump"
+  "packageRules": [
+    {
+      "matchDepTypes": ["engines"],
+      "matchUpdateTypes": ["minor"]
+      "enabled": false
+    }
+  ]
 }

@@ -14,7 +14,11 @@ export default defineConfig({
       '@': path.join(__dirname, 'src'),
     },
   },
+  css: {
+    transformer: 'lightningcss'
+  },
   build: {
+    cssMinify: 'lightningcss',
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {
