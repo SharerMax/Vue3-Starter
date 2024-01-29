@@ -15,17 +15,16 @@ export default defineConfig({
     },
   },
   css: {
-    transformer: 'lightningcss'
+    transformer: 'lightningcss',
   },
   build: {
     cssMinify: 'lightningcss',
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {
-          let extType = assetInfo.name.split('.')[1]
-          if (/png|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType))
+          let extType = assetInfo.name?.split('.')[1]
+          if (extType && /png|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType))
             extType = 'img'
-
           return `assets/${extType}/[name]-[hash][extname]`
         },
         chunkFileNames: 'assets/js/[name]-[hash].js',
