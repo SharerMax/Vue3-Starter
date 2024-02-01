@@ -4,7 +4,10 @@
     "@vue/tsconfig/tsconfig.json"
   ],
   "compilerOptions": {
-    "types": ["node"]
+    "composite": true,
+    "types": ["node"],
+    "emitDeclarationOnly": true,
+    "noEmit": false
   },
   "include": ["vite.config.ts"]
 }
