@@ -13,23 +13,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@unocss/reset": "^0.59.2",
+    "@unocss/reset": "^0.59.4",
     "vite-plugin-pages": "^0.32.1",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue": "^3.4.23",
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.13.3",
+    "@antfu/eslint-config": "^2.15.0",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.12.7",
-    "@unocss/transformer-variant-group": "^0.59.2",
+    "@unocss/transformer-variant-group": "^0.59.4",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/tsconfig": "^0.5.1",
     "eslint": "^8.57.0",
     "lightningcss": "^1.24.1",
     "typescript": "^5.4.5",
-    "unocss": "^0.59.2",
-    "vite": "^5.2.8",
-    "vue-tsc": "^2.0.13"
+    "unocss": "^0.59.4",
+    "vite": "^5.2.10",
+    "vue-tsc": "^2.0.14"
   }
 }
