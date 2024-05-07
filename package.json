@@ -15,13 +15,13 @@
   "dependencies": {
     "@unocss/reset": "^0.59.4",
     "vite-plugin-pages": "^0.32.1",
-    "vue": "^3.4.26",
+    "vue": "^3.4.27",
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.16.0",
+    "@antfu/eslint-config": "^2.16.2",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.12.7",
+    "@types/node": "^20.12.10",
     "@unocss/transformer-variant-group": "^0.59.4",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/tsconfig": "^0.5.1",
@@ -29,7 +29,7 @@
     "lightningcss": "^1.24.1",
     "typescript": "^5.4.5",
     "unocss": "^0.59.4",
-    "vite": "^5.2.10",
-    "vue-tsc": "^2.0.14"
+    "vite": "^5.2.11",
+    "vue-tsc": "^2.0.16"
   }
 }
