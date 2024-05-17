@@ -1,3 +1,4 @@
+// https://github.com/microsoft/TypeScript/issues/49844
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
   "compilerOptions": {

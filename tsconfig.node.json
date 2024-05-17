@@ -6,6 +6,8 @@
   "compilerOptions": {
     "composite": true,
     "types": ["node"],
+    // https://github.com/microsoft/TypeScript/issues/49844
+    // emitDeclarationOnly true, noEmit true
     "emitDeclarationOnly": true,
     "noEmit": false
   },
