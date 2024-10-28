@@ -1,15 +1,15 @@
 {
-  "extends": [
-    "@tsconfig/node20/tsconfig.json",
-    "@vue/tsconfig/tsconfig.json"
-  ],
+  "extends": ["@tsconfig/node20/tsconfig.json"],
   "compilerOptions": {
     "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "types": ["node"],
-    // https://github.com/microsoft/TypeScript/issues/49844
-    // emitDeclarationOnly true, noEmit true
-    "emitDeclarationOnly": true,
-    "noEmit": false
+    "strict": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
   },
-  "include": ["vite.config.ts"]
+  "include": ["./*"]
 }
