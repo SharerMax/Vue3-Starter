@@ -21,7 +21,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^3.16.0",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^22.10.10",
+    "@types/node": "^22.13.0",
     "@unocss/transformer-variant-group": "^65.4.3",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
