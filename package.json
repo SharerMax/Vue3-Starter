@@ -21,7 +21,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^3.16.0",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^22.10.10",
+    "@types/node": "^22.13.1",
     "@unocss/transformer-variant-group": "^65.4.3",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
@@ -29,7 +29,7 @@
     "lightningcss": "^1.29.1",
     "typescript": "^5.7.3",
     "unocss": "^65.4.3",
-    "vite": "^6.0.11",
+    "vite": "^6.1.0",
     "vue-tsc": "^2.2.0"
   }
 }
