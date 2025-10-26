@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center">
+  <div class="flex flex-col items-center">
     <h1>Happy Coding</h1>
     <img
       src="@/assets/img/logo.png"
