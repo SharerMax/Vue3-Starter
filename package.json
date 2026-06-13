@@ -28,7 +28,7 @@
     "browserslist": "^4.28.2",
     "eslint": "^10.5.0",
     "lightningcss": "^1.32.0",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.3",
     "unocss": "^66.7.2",
     "vite": "^7.3.5",
     "vue-tsc": "^3.3.5"
