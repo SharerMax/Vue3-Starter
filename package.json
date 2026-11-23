@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^9.0.0",
-    "@tsconfig/node24": "^24.0.4",
+    "@tsconfig/node26": "^26.0.0",
     "@types/node": "^24.13.2",
     "@unocss/transformer-variant-group": "^66.7.2",
     "@vitejs/plugin-vue": "^6.0.7",
